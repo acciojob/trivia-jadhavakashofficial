@@ -1,2 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-/* Your CSS Code here. */
+.question-container {
+  max-width: 600px;         /* approximate max-width */
+  margin: 10px auto;        /* center horizontally, with ~10px margin */
+  padding: 10px;            /* spacing inside the container */
+  border-left: 8px solid green;
+  background-color: #ccffcc;/* light green background, close to #16 */
+  font-weight: bold;        /* make text bold */
+}
+
+.question-container p {
+  margin: 10px 0;
+}
+
+label {
+  display: inline-block;
+  margin: 5px 0;
+}
+
+blockquote {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+#result {
+  margin-top: 10px;
+  color: #333;
+}

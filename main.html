@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Trivia - Capital of India</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="question-container">
+    <p>What is the capital of India?</p>
+    <form id="quiz-form">
+      <label>
+        <input type="radio" name="capital" value="New Delhi">
+        New Delhi
+      </label><br>
+      <label>
+        <input type="radio" name="capital" value="Mumbai">
+        Mumbai
+      </label><br>
+      <button type="button" id="check-answer">Check Answer</button>
+    </form>
 
+    <blockquote cite="https://en.wikipedia.org/wiki/New_Delhi">
+      New Delhi is the capital of India and an administrative district of NCT Delhi.
+    </blockquote>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
